@@ -1,3 +1,11 @@
+@mixin for-desktop-up {
+  @media (min-width: 1200px) { @content; }
+}
+
+@mixin for-phone-only {
+  @media (max-width: 599px) { @content; }
+}
+
 .App {
   text-align: center;
   height: 100vh;
@@ -58,13 +66,53 @@
   margin-left: auto
 }
 
-a {
+#nav a {
   color: white;
 }
 
 iframe {
-  height: 90vh;
+  height: 88vh;
   margin-top: 20px;
   border: 0px;
 
+}
+
+.card-text a, .card-title a {
+  color: black
+}
+
+#scroll {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  height: 90vh;
+}
+
+.card {
+  @include for-desktop-up {
+    width: 40%;
+  }
+  @include for-phone-only() {
+    font-size: .75rem;
+    width: 80%;
+  }
+  vertical-align: top;
+  margin-right: 10px;
+  height: 100%;
+  display: inline-block;
+  white-space: pre-wrap;
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.row a {
+  color: white
 }
