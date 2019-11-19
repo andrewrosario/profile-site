@@ -3,7 +3,7 @@ export function projects() {
         {
             'name': 'DIYHelper',
             'image': './diyhelper.png',
-            'description': 'DIY Helper is a project to connect DIY Novices and Experts and provide them with a real-time collaboration tool using a React Frontend and Rails REST API backend. Node.js express server websockets allow both users to see live updates from the other as they are made. A progress wheel allows users to track real progress on their project to maintain motivation.',
+            'description': 'DIY Helper is a project to connect DIY Novices and Experts and provide them with a real-time collaboration tool using a React Frontend and Rails REST API backend. Node.js express server websockets allow both users to see live updates from the other as they are made.',
             'technologies': 'React, React Hooks, Javascript, Redux, Rails, Ruby, Node.js, Express Server, Sockets, Bootstrap, HTML5, CSS, Auth, Heroku, Amazon S3',
             'deployLink': 'https://diyhelper.herokuapp.com/',
             'gitHub': ['https://github.com/andrewrosario/home-helper-frontend', 'https://github.com/andrewrosario/home-helper-backend']
