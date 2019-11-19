@@ -26,21 +26,45 @@
 #intro {
   background-color: rgba(0, 0, 0, 0.58);
   color: white;
-  padding: 100px;
-  display: inline-block;
-  position: fixed;
-  width: 400px;
-  left: 30%;
-  top: 20%
+  margin-top: 20%
 }
 
-button {
-  width: 40%;
+#intro .btn-primary {
+  width: 30%;
   height: 40px;
   background-color: black;
   color: white;
+  border: 1px solid white;
 }
 
-button:last-child {
+#intro .btn-primary:nth-child(n+1) {
   margin-left: 20px;
+}
+
+#nav {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  margin: 0px;
+  height: 3rem;
+}
+
+#nav button {
+  float: right;
+  background-color: rgba(0, 0, 0, 0);
+  border: 0px solid black
+}
+
+#nav button:first-child {
+  margin-left: auto
+}
+
+a {
+  color: white;
+}
+
+iframe {
+  height: 90vh;
+  margin-top: 20px;
+  border: 0px;
+
 }
