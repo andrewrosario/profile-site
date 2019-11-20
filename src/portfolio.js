@@ -8,7 +8,7 @@ const Portfolio = () => {
     return ( 
         <>
             <Row id='nav' className='w-100'>
-                {/* <button><Link to='/about'>About</Link></button> */}
+                <button><Link to='/about'>About</Link></button>
                 <button><Link to='/resume'>Resume</Link></button>
                 <button><Link to='/'>Home</Link></button>
             </Row>
