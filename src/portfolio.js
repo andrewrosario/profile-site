@@ -2,7 +2,7 @@ import React from 'react';
 import { Row, Col } from 'react-bootstrap'
 import { projects } from './projects'
 import ProjectCard from './projectCard'
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"
 
 const Portfolio = () => {
     return ( 
