@@ -22,11 +22,11 @@ function App() {
               <Resume />
             </Route>
             <Route path="/">
-              <Col id='intro' lg={{span: 8, offset: 2}} className='pt-3 pb-3'>
+              <Col id='intro' className='pt-2 pb-2'>
                 <h1 className='w-100 mb-3'>Andrew Rosario</h1>
                 <Button as={Link} to='/about' className='col-3'>About</Button>
                 <Button as={Link} to='/portfolio' className='col-3'>Portfolio</Button>
-                <Button as={Link} to='/resume' className='col-3'>Resume</Button>
+                {/* <Button as={Link} to='/resume' className='col-3'>Resume</Button> */}
               </Col>
             </Route>
           </Switch>
