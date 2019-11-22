@@ -9,7 +9,6 @@ import About from './about'
 function App() {
   return (
     <Container fluid className='App'>
-      <Row>
         <Router>
           <Switch>
             <Route path="/about">
@@ -31,7 +30,6 @@ function App() {
             </Route>
           </Switch>
         </Router>
-      </Row>
     </Container>
   );
 }

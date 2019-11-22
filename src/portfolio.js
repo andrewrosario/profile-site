@@ -12,7 +12,7 @@ const Portfolio = () => {
                 {/* <button><Link to='/resume'>Resume</Link></button> */}
                 <button><Link to='/'>Home</Link></button>
             </Row>
-            <Col lg={{span: 10, offset:1}}>
+            <Col lg={{span: 10, offset:1}} className='p-0'>
                 <div id='scroll'>
                     {projects().map( (e, i) => <ProjectCard project={e} key={i} />)}
                 </div>

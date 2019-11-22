@@ -21,8 +21,9 @@ p {
 .App {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
-  height: 100vh;
+  height: 95vh;
   width: 100%;
+  padding: 0px;
 }
 
 .App-logo {
@@ -73,7 +74,7 @@ p {
 #nav {
   background-color: white;
   color: black;
-  margin: 0px;
+  margin: 0px !important;
   height: 3rem;
 }
 
@@ -143,12 +144,13 @@ iframe {
   }
 }
 
-::-webkit-scrollbar {
+#scroll::-webkit-scrollbar {
   -webkit-appearance: none;
   width: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
-::-webkit-scrollbar-thumb {
+#scroll::-webkit-scrollbar-thumb {
   border-radius: 5px;
   background-color: rgba(255, 255, 255, 0.8);
 }
