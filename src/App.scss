@@ -147,12 +147,11 @@ iframe {
 #scroll::-webkit-scrollbar {
   -webkit-appearance: none;
   width: 10px;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 #scroll::-webkit-scrollbar-thumb {
   border-radius: 5px;
-  background-color: rgba(255, 255, 255, 0.8);
 }
 
 #about {
@@ -163,7 +162,7 @@ iframe {
   width: 80%;
   #profile-pic {
     width: 20%;
-    margin-top: 7%;
+    margin-top: 4%;
     border-radius: .5rem;
     @include for-phone-only {
       width: 50%;
@@ -185,10 +184,10 @@ iframe {
   #links {
     padding-top: 50px;
     img {
-      width: 50px;
+      width: 40px;
     }
     :last-child {
-      margin-left: 20px
+      margin-left: 15px
     }
   }
 }

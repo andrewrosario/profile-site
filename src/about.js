@@ -19,7 +19,8 @@ const About = () => {
                     <p>I'm a software engineer, educator, and life-long learner passionate about solving hard problems creatively and collaboratively.
                     I have worked primarily in React and Ruby on Rails to complete projects, while developing APIs and relational databases to structure information.
                     When I'm not working on software projects, my partner and I love to do DIY projects around the house, travel, and spending time with our family.</p><br></br>
-                    <a href='https://drive.google.com/file/d/1sxoQyFLSQYjqfuZeZtMtZhXtMfo1utFD/view'>Resume</a>
+                    <a href='https://drive.google.com/file/d/1sxoQyFLSQYjqfuZeZtMtZhXtMfo1utFD/view'>Resume</a><br></br>
+                    <a href = 'mailto: rosario.andrew@gmail.com'>rosario.andrew@gmail.com</a>
                     <div id='links'>
                         <a href='https://github.com/andrewrosario'><img src='./github.svg'></img></a>
                         <a href='https://www.linkedin.com/in/andrew-rosario-20982333/'><img src='./linkedin.png'></img></a>
